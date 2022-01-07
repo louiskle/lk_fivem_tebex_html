@@ -1,0 +1,112 @@
+.contenttt {
+	margin: auto;
+}
+
+body {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "bariol", sans-serif;
+}
+
+body.active {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	color: rgb(17, 135, 231);
+}
+.btn-sign-out i{
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	background: rgba(0, 0, 0, 0);
+	font-size: 30px;
+}
+
+.btn-sign-out {
+	font-size: 15px;
+	float: right;
+	border-radius: 100px;
+	background: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+
+.display-level {
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	text-align: center;
+}
+
+.gamepass-texte {
+	font-weight: bold;
+	font-size: 50px;
+	color: rgb(20, 137, 214);
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.carousel-control-next-icon {
+	color: rgb(58, 59, 59);
+	background: rgba(0, 0, 0, 0);
+}
+
+.carousel-control-prev-icon {
+	color: rgb(58, 59, 59);
+	background: rgba(0, 0, 0, 0);
+}
+
+.displaycoin{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(216, 18, 18);
+}
+
+
+
+
+
+
+
+
+.homeimagebtn{
+	border: none;
+}
+
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+  
+  .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  .imagehoverdisplay:hover .image {
+	filter: blur(4px);
+  }
+  
+  .imagehoverdisplay:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	color: white;
+	font-size: 30px;
+	padding: 16px 32px;
+  }
